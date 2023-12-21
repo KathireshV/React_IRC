@@ -1,0 +1,62 @@
+.mobile-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .mobile-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .mobile-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .mobile-item img {
+    max-width: 90%;
+    height: 300px;
+    border-radius: 8px;
+  }
+  
+  .mobile-details {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .mobile-details .hh3 {
+    font-size: 1.2em;
+  }
+  
+  .mobile-details .pp3 {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 1.1em;
+  }
+  
+  .df{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .df:hover {
+    background-color: #0056b3;
+  }  
